@@ -17,53 +17,24 @@
 .sidebar-footer {
     margin-top: auto;
     border-top: 1px solid #a9a9a9;
-    text-align: center;
+    text-align: justify;
     padding: 16px;
     background-color:  #1B3C29 ;
 }
-/* 
-.sociais {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 8px;
-} */
-
-/* .social-link {
-    color: var(--white);
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    font-weight: 600;
-} */
-
-.sociais {
-    width: 40px;       
-    height: 20px;      
-    object-fit: contain;
-
+ 
+.sidebar-footer .sociais {
+  display: flex;
+  flex-direction: row;   /* lado a lado, na horizontal */
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.sociais {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    background-color: #333; /* Cor de fundo padrão de footer */
-    color: #fff;
-    width: 100%;              
-    box-sizing: border-box;
-}
-
-/* O CSS específico para reduzir e ajustar o SVG */
-.footer-logo {
-    height: 32px;         /* Define uma altura padrão perfeita para rodapés */
-    width: auto;          /* Calcula a largura automaticamente para não distorcer */
-    max-width: 150px;     /* Limite máximo caso o seu logo seja muito largo */
-    display: block;       /* Remove espaços invisíveis abaixo da imagem */
-    opacity: 0.8;         /* Opcional: deixa o logo ligeiramente suave para o rodapé */
-    transition: opacity 0.2s;
+.sidebar-footer .sociais img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
 }
 
 .footer-logo:hover {
