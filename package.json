@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "multer": "^2.4.0",
+    "pg": "^8.23.0"
+  },
+    "name": "chefsaep",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    }
+}
