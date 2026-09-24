@@ -14,29 +14,24 @@
     gap: 12px;
 }
 
-.sidebar-footer {
-    margin-top: auto;
-    border-top: 1px solid #a9a9a9;
-    text-align: justify;
-    padding: 16px;
-    background-color:  #1B3C29 ;
-}
- 
-.sidebar-footer .sociais {
+.app-footer {
+  width: 100%;
   display: flex;
-  flex-direction: row;   /* lado a lado, na horizontal */
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.app-footer .sociais {
+  display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 
-.sidebar-footer .sociais img {
+.app-footer .sociais img {
   width: 24px;
   height: 24px;
   object-fit: contain;
-  display: block;
-}
-
-.footer-logo:hover {
-    opacity: 1;
 }
